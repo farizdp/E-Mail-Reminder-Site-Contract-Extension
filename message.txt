@@ -1,0 +1,55 @@
+<html>
+<head></head>
+<body>
+<p>Dear <b>${PERSON_NAME}</b>,<br><br>
+Ini adalah email peringatan untuk kontrak site yang akan berakhir.<br>
+Berikut detail site-nya,<br><br>
+<table>
+  <tr>
+  	<td>&emsp;</td>
+    <td>Site </td>
+    <td>: ${SITE_ID} ${SITE_NAME}</td>
+  </tr>
+  <tr>
+  	<td>&emsp;</td>
+    <td>Alamat</td>
+    <td>: ${ALAMAT_SITE}</td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  	<td>&emsp;</td>
+    <td>Tanggal berakhir</td>
+    <td>: ${TGL_KONTRAK}</td>
+  </tr>
+  <tr>
+  	<td>&emsp;</td>
+    <td>Land Lord</td>
+    <td>: ${LAND_LORD}</td>
+  </tr>
+  <tr>
+  	<td>&emsp;</td>
+    <td>No. Kontrak</td>
+    <td>: ${NO_KONTRAK}</td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+  	<td>&emsp;</td>
+    <td>Technical Area</td>
+    <td>: ${RTPO}</td>
+  </tr>
+</table><br>
+Mohon menjadi perhatian.<br>
+Terima kasih.<br>
+<br>
+FRZDP
+</p>
+</body>
+</html>
